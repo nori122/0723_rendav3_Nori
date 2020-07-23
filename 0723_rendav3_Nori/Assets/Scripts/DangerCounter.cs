@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-
-public class Result : TreeCounter
+public class DangerCounter : MonoBehaviour
 {
+    // カウント用変数
+    public int dangerCnt;
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Text>().text = "結果は" + result + "秒でした";
+
     }
 
     // Update is called once per frame

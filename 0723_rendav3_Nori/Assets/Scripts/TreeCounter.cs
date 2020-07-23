@@ -5,12 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class TreeCount : MonoBehaviour
+public class TreeCounter : MonoBehaviour
 {
     // カウント用変数
-    public int Cnt;
+    public int treeCnt;
     // 結果表示用変数
-    public static int result;
+    public int result;
     // タイマー用変数
     //public int timer;
 
@@ -21,14 +21,14 @@ public class TreeCount : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             // カウントを減らす
-            Cnt--;
+            treeCnt--;
         }
 
         //カウントをTextコンポーネントへ 
-        this.GetComponent<Text>().text = "残り" + Cnt + "本";
+        this.GetComponent<Text>().text = "残り" + treeCnt + "本";
 
         // もしtimerが500以上になったら
-        if (Cnt == 0)
+        if (treeCnt == 0)
         {
             // カウントを0に戻す
             //カウントをTextコンポーネントへ
