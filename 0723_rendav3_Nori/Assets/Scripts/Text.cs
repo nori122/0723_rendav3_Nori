@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//public class Text : TreeCounter
+//public class Text : TreeCount
 //{
 //    // Start is called before the first frame update
 //    void Start()
