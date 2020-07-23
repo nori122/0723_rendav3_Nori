@@ -213,6 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dangerCnt: 0
+  dangerLimit: 10
 --- !u!1 &239961246
 GameObject:
   m_ObjectHideFlags: 0
